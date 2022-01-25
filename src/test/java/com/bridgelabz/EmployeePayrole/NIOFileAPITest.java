@@ -50,7 +50,6 @@ package com.bridgelabz.EmployeePayrole;
 			Files.newDirectoryStream(playPath, path -> path.toFile().isFile() && path.toString().startsWith("temp"))
 					.forEach(System.out::println);
 		}
-		
 		@Test
 		public void givenDirectory_WhenWatched_ShouldReturnAllActivities() throws IOException
 		{
