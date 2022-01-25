@@ -25,12 +25,10 @@ public class EmployeePayroleService {
 		
 		employeePayrollList.add(new EmployeePayroleData(id, name, salary));
 	}
-	
 	private void writeEmployeePayroleData() {
 		System.out.println("\nWriting Employee Payroll Roster to Console\n" + employeePayroleList);
 	}
 	public static void main(String[] args) {
-		
 		System.out.println("---------- Welcome To Employee Payroll Application ----------\n");
 		ArrayList<EmployeePayroleData> employeePayrollList  = new ArrayList<EmployeePayroleData>();
 		EmployeePayroleService employeePayrollService = new EmployeePayroleService(employeePayrollList);
