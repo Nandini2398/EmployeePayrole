@@ -13,4 +13,4 @@ public class EmployeePayroleData {
 		public String toString() {
 			return "Employee Details: \nEmployee Id: "+employeeId+"\nEmployee Name: "+employeeName+"\nEmployee Salary: "+employeeSalary;
 		}
-	}
+}
