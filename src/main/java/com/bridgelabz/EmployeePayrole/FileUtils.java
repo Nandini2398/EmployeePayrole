@@ -13,6 +13,6 @@ import java.io.File;
 				}
 			}
 			return file.delete();
-		}
+	}
 }
 
