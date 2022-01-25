@@ -18,7 +18,6 @@ package com.bridgelabz.EmployeePayrole;
 		
 		private final WatchService watcher;
 		private final Map<WatchKey,Path> dirWatchers;
-		
 		Java8WatchService(Path dir) throws IOException{
 			this.watcher = FileSystems.getDefault().newWatchService();
 			this.dirWatchers = new HashMap<WatchKey,Path>();
